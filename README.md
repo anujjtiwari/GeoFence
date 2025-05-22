@@ -1,6 +1,4 @@
-GEOFENCER
-
-                                                                                         
+Geofencer                                                                                      
 - This is a python script which takes telecom log files as an input and a target GPS coordinate
 - Next it creates a 500 meter radius around the Target coordinate
 - finally it produces a xcel sheet which contains following IPs:
