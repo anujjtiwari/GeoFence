@@ -1,10 +1,4 @@
-
-   ______           ____                         
-  / ____/__  ____  / __/__  ____  ________  _____
- / / __/ _ \/ __ \/ /_/ _ \/ __ \/ ___/ _ \/ ___/
-/ /_/ /  __/ /_/ / __/  __/ / / / /__/  __/ /    
-\____/\___/\____/_/  \___/_/ /_/\___/\___/_/     
-                                                 
+GEOFENCER
 
                                                                                          
 - This is a python script which takes telecom log files as an input and a target GPS coordinate
