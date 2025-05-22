@@ -11,7 +11,7 @@ print(r"""
                                                                                          
 
                     GeoFencer — IP Movement Analyzer
-                          Author: ANUJ TIWARI
+                          Author: Anuj Tiwari
 """)
 
 
