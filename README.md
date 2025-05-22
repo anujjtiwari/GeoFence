@@ -1,4 +1,10 @@
-# GeoFence
+  _______  _______   ______    _______  _______ .__   __.   ______  _______ .______      
+ /  _____||   ____| /  __  \  |   ____||   ____||  \ |  |  /      ||   ____||   _  \     
+|  |  __  |  |__   |  |  |  | |  |__   |  |__   |   \|  | |  ,----'|  |__   |  |_)  |    
+|  | |_ | |   __|  |  |  |  | |   __|  |   __|  |  . `  | |  |     |   __|  |      /     
+|  |__| | |  |____ |  `--'  | |  |     |  |____ |  |\   | |  `----.|  |____ |  |\  \----.
+ \______| |_______| \______/  |__|     |_______||__| \__|  \______||_______|| _| `._____|
+                                                                                         
 - This is a python script which takes telecom log files as an input and a target GPS coordinate
 - Next it creates a 500 meter radius around the Target coordinate
 - finally it produces a xcel sheet which contains following IPs:
