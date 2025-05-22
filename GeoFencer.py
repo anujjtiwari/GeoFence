@@ -1,14 +1,29 @@
 import pandas as pd
 from math import radians, sin, cos, sqrt, atan2
 
+print(r"""
+  ██████╗ ███████╗ ██████╗ ███████╗███████╗███╗   ██╗ ██████╗ ███████╗██████╗ 
+ ██╔════╝ ██╔════╝██╔════╝ ██╔════╝██╔════╝████╗  ██║██╔════╝ ██╔════╝██╔══██╗
+ ██║  ███╗█████╗  ██║  ███╗█████╗  █████╗  ██╔██╗ ██║██║  ███╗█████╗  ██████╔╝
+ ██║   ██║██╔══╝  ██║   ██║██╔══╝  ██╔══╝  ██║╚██╗██║██║   ██║██╔══╝  ██╔══██╗
+ ╚██████╔╝███████╗╚██████╔╝███████╗███████╗██║ ╚████║╚██████╔╝███████╗██║  ██║
+  ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝
+
+                    GeoFencer — IP Movement Analyzer
+                          Author: ANUJ TIWARI
+""")
+
+
+
 # --- Re-run the previous logic to get the IP sets ---
 
 # Load your CSV file
 df = pd.read_csv('Bulk Barnala, Bimber.csv')
 
 # Target coordinates and radius
-target_lat = 32.86783735156178
-target_lon = 74.25641198819648
+# target_lat = 32.86783735156178
+target_lat = float(input(print("Enter the target latitude: ")))
+target_lon = float(input(print("Enter the target longitude: ")))
 radius_meters = 500
 
 # Earth's radius in meters
